@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet">
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TatraTopo</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ <header class="header-container">
+    <!-- Replace src with your actual logo file path -->
+    <img src="Icons/logoTa.svg" class="site-logo">
+    <h1>TatraTopo</h1>
+  </header>
+
+  <main class="container">
+    <aside id="route-sidebar">
+      <h2 style="text-align: center;">Routes</h2>
+<!-- NEW: Collapsible Filter UI -->
+      <div class="filter-container">
+        <button id="filter-toggle-btn" class="filter-toggle-btn">
+          <!-- Left side: Cog + Text -->
+          <div class="btn-left-content">
+            <img src="Icons/cog.svg" alt="Filter" class="btn-icon">
+            <span>Filter Routes</span>
+          </div>
+          <!-- Right side: Chevron -->
+          <span id="filter-chevron">▼</span>
+        </button>
+        <!-- This panel will be hidden by default -->
+        <div id="filter-panel" class="filter-panel">
+          <label class="filter-title">Select Grades:</label>
+          <div id="grade-checkboxes" class="checkbox-grid">
+            <!-- JavaScript will inject the checkboxes here -->
+          </div>
+        </div>
+      </div>
+
+  <div id="route-list"></div>
+  
+  <div style="text-align: center;" class = "donate-btn">
+        <button>Donate</button>
+      </div>
+</aside>
+
+    <div id="map"></div>
+  </main>
+
+<div id="route-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2 id="modal-title">Route Name</h2>
+      <div class="modal-meta" id="modal-meta">Elevation / Grade</div>
+      <img id="modal-topo" src="" alt="Route Topo">
+      <p id="modal-desc">Full description goes here...</p>
+    </div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
