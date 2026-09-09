@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Grossglockner - Stüdlgrat",
+    "grade": "III+ (UIAA)",
+    "elevation": "3,798 m",
+    "lat": 47.0742,
+    "lng": 12.6947,
+    "description": "The classic ridge climb on Austria's highest peak.",
+    "fullDescription": "Approach: From Stüdlhütte, hike the glacier for 1.5 hours to the base of the ridge. \n\nPitch 1-4: Easy scrambling (II) to the breakfast block. \n\nCrux: A steep 15m slab rated III+, well protected with a fixed cable. \n\nDescent: Downclimb the normal route (Kleinglockner) back to Erzherzog-Johann-Hütte.",
+    "topoImage": "Topos/defalut.png"
+  },
+  {
+    "id": 2,
+    "name": "Zugspitze - Höllental",
+    "grade": "B/C Via Ferrata / I",
+    "elevation": "2,962 m",
+    "lat": 47.4211,
+    "lng": 10.9853,
+    "description": "Varied alpine route through the Höllental gorge.",
+    "fullDescription": "Approach: Start at Hammersbach, hike through the gorge (fee required).\n\nGlacier: Crampons required for the Höllentalferner. Watch for the massive randkluft (crevasse) at the transition to the rock!\n\nVia Ferrata: Steep B/C climbing all the way to the golden cross at the summit.",
+    "topoImage": "Topos/defalut.png"
+  },
+  {
+    "id": 3,
+    "name": "Gerlach - Martinka",
+    "grade": "III",
+    "elevation": "2,654 m",
+    "lat": 49.1640319,
+    "lng": 20.1340594,
+    "description": "Varied alpine route through the Höllental gorge.",
+    "fullDescription": "Approach: Start at Hammersbach, hike through the gorge (fee required).\n\nGlacier: Crampons required for the Höllentalferner. Watch for the massive randkluft (crevasse) at the transition to the rock!\n\nVia Ferrata: Steep B/C climbing all the way to the golden cross at the summit.",
+    "topoImage": "Topos/defalut.png"
+  }
+]
